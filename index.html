@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЧЕЛЯБА74 - Главная</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="app">
+    <header>   
+        <div class="container">
+            <div class="header_top">
+                <div class="logo">
+                    <a href="index.html"><h2>ЧЕЛЯБА74</h2></a>
+                </div>
+
+                <nav class="menu">
+                    <ul class="menu_list">
+
+                        <li class="menu_item">
+                            <div>
+                                <a href="#hotel" @click="showmenu" class="menu_link">Отели</a>
+                            </div>
+                        </li>
+
+                        <li class="menu_item">
+                            <a href="#dostopr"  @click="showmenu" class="menu_link">Достопримечательности</a>
+                        </li>
+
+                        <li class="menu_item">
+                            <a href="#footer"  @click="showmenu" class="menu_link">Контакты</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+                
+            </div>
+            
+            <div class="info">
+                <p>Отправляйтесь в Челябинск, чтобы обеспечить себе идеальный отдых<p>
+            </div>
+            
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="hotel_block" id="hotel">
+                <div class="info2">
+                    <h1>ГДЕ ОСТАНОВИТЬСЯ?</h1>
+                </div>
+                
+                <div class="hotels">
+
+                    <div class="hotel">
+                        <a href="hotel/bluhotel.html">
+                        <img src="image/Rectangle 6.png" alt="">
+                        <div class="hotel_h">
+                            <h3>Radisson Blu Hotel</h3>
+                        </div>
+                        <p>Челябинск, улица Труда, 179</p>
+                        </a>
+                    </div>
+                
+                    <div class="hotel">
+                        <a href="hotel/smolinoPark.html">
+                        <img src="image/Rectangle 6 (1).png" alt="">
+                        <div class="hotel_h">
+                            <h3>SmolinoPark</h3>
+                        </div>
+                        <p>​Челябинск, Чапаева, 114</p>
+                        </a>
+                    </div>
+
+                    <div class="hotel">
+                        <a href="hotel/malahit.html">
+                        <img src="image/Rectangle 6 (2).png" alt="">
+                        <div class="hotel_h">
+                            <h3>Малахит</h3>
+                        </div>
+                        <p>Челябинск, улица Труда, 153</p>
+                        </a>
+                    </div>
+
+                    <div class="hotel">
+                        <a href="hotel/vidgof.html">
+                        <img src="image/Rectangle 6 (3).png" alt="">
+                        <div class="hotel_h">
+                            <h3>Видгоф</h3>
+                        </div>
+                        <p>Челябинск, проспект Ленина, 26а</p>
+                        </a>
+                    </div>
+                    
+                </div>
+
+                <div class="hotels">
+
+                    <div class="hotel">
+                        <a href="hotel/meliot.html">
+                        <img src="image/Rectangle 6 (4).png" alt="">
+                        <div class="hotel_h">
+                            <h3>Мелиот</h3>
+                        </div>
+                        <p>Челябинск, Салавата Юлаева, 17г</p>
+                        </a>
+                    </div>
+                
+                    <div class="hotel">
+                        <a href="hotel/venice.html">
+                        <img src="image/Rectangle 6 (5).png" alt="">
+                        <div class="hotel_h">
+                            <h3>Венеция</h3>
+                        </div>
+                        <p>Челябинск, улица Рождественского, 8в</p>
+                        </a>
+                    </div>
+
+                    <div class="hotel">
+                        <a href="hotel/aurora.html">
+                        <img src="image/Rectangle 6 (6).png" alt="">
+                        <div class="hotel_h">
+                            <h3>Аврора</h3>
+                        </div>
+                        <p>Челябинск, улица Дзержинского, 93Б</p>
+                        </a>
+                    </div>
+
+                    <div class="hotel">
+                        <a href="hotel/airport.html">
+                        <img src="image/Rectangle 6 (7).png" alt="">
+                        <div class="hotel_h">
+                            <h3>Аэропорт</h3>
+                        </div>
+                        <p>Челябинск, посёлок Аэропорт, Аэротель</p>
+                        </a>
+                    </div>
+                    
+                </div>
+                
+                <button>
+                    <a href="hotels\indexHotel.html">
+                        Смотрeть все
+                        <img src="image/right-arrow.png" alt="">
+                    </a>
+                </button>
+
+            </div>
+
+            <div class="container1" id="dostopr">
+
+                <div class="info2">
+                    <h1>Что посетить?</h1>
+                </div>
+
+                <div class="slide">
+        
+                    <div class="item"
+                        style="background-image: url(https://proehal.ru/media/sights/chelyabinsk/kirovka-chelyabinskij-arbat_01.jpg);">
+                        <div class="content">
+                            <div class="name">Кировка - Челябинский Арбат</div>
+                            <div class="des">Ул.Кирова в Челябинске - место обязательное к посещению. Множество магазинчиков и кафешек, необычных скульптур и весёлых людей. Вечерняя подсветка делаем данное место ещё более привлекательным.</div>
+                            <button>Смотреть больше</button>
+                        </div>
+                    </div>
+                    <div class="item"
+                        style="background-image: url(https://hctraktor.org/upload/iblock/d07/d07e6189ef4ebce30374e30dd0cb5d8f.jpg);">
+                        <div class="content">
+                            <div class="name">Ледовая арена "Трактор"</div>
+                            <div class="des">Ул.Кирова в Челябинске - место обязательное к посещению. Множество магазинчиков и кафешек, необычных скульптур и весёлых людей. Вечерняя подсветка делаем данное место ещё более привлекательным.</div>
+                            <button>Смотреть больше</button>
+                        </div>
+                    </div>
+                    <div class="item"
+                        style="background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/8e/7a/6d/caption.jpg?w=1000&h=-1&s=1);">
+                        <div class="content">
+                            <div class="name">Ресторан Родня</div>
+                            <div class="des">Ул.Кирова в Челябинске - место обязательное к посещению. Множество магазинчиков и кафешек, необычных скульптур и весёлых людей. Вечерняя подсветка делаем данное место ещё более привлекательным.</div>
+                            <button>Смотреть больше</button>
+                        </div>
+                    </div>
+                    <div class="item"
+                        style="background-image: url(https://chel.guide/sites/default/files/styles/hd_x_1280xx_/public/pubs-images/2023/05/dd113b135460ee654f908aad63bca0ba.jpg.webp?itok=FhGn2UwV);">
+                        <div class="content">
+                            <div class="name">Памятник Курчатову</div>
+                            <div class="des">Ул.Кирова в Челябинске - место обязательное к посещению. Множество магазинчиков и кафешек, необычных скульптур и весёлых людей. Вечерняя подсветка делаем данное место ещё более привлекательным.</div>
+                            <button>Смотреть больше</button>
+                        </div>
+                    </div>
+                    <div class="item"
+                        style="background-image: url(https://upload.wikimedia.org/wikipedia/ru/2/26/%D0%A1%D0%BA%D0%B0%D0%B7_%D0%BE%D0%B1_%D0%A3%D1%80%D0%B0%D0%BB%D0%B5_%28%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%29.jpg);">
+                        <div class="content">
+                            <div class="name">Скульптурная композиция «Сказ об Урале»</div>
+                            <div class="des">Ул.Кирова в Челябинске - место обязательное к посещению. Множество магазинчиков и кафешек, необычных скульптур и весёлых людей. Вечерняя подсветка делаем данное место ещё более привлекательным.</div>
+                            <button>Смотреть больше</button>
+                        </div>
+                    </div>
+                    <div class="item"
+                        style="background-image: url(https://studyinrussiaportal.com/images/urgu.jpg);">
+                        <div class="content">
+                            <div class="name">Южно-Уральский государственный университет</div>
+                            <div class="des">Ул.Кирова в Челябинске - место обязательное к посещению. Множество магазинчиков и кафешек, необычных скульптур и весёлых людей. Вечерняя подсветка делаем данное место ещё более привлекательным.</div>
+                            <button>Смотреть больше</button>
+                        </div>
+                    </div>
+                    
+                </div>
+   
+                <div class="button">
+                    <button class="prev"><i
+                            class="fa-solid fa-arrow-left"><</i></button>
+                    <button class="next"><i
+                            class="fa-solid fa-arrow-right">></i></button>
+                </div>
+
+            </div>
+
+            <div class="slide1" v-if="slider === 0">
+
+            <div class="slider" id="slider1">
+
+                <div class="slide_item">
+
+                    <a href="ivent/arbat.html">
+                        <img src="image/Rectangle 33.png" alt="">
+                        <div class="date">
+                            <img src="image/calendar.png" alt="" class="calendar">
+                            <p>Март 22, 2025</p>
+                        </div>
+                        <h3>Кировка - Челябинский Арбат</h3>
+                        <p>Кировка — пешеходная часть улицы Кирова в Челябинске, ставшая одной из главных достопримечательностей города. Пешеходная зона была создана в 2000 году по ...</p>
+                        <p>> Смотреть больше</p>
+                    </a>
+                </div>
+                <div class="slide_item">
+                    <a href="ivent/tractor.html">
+                        <img src="image/Rectangle 33 (1).png" alt="">
+                        <div class="date">
+                            <img src="image/calendar.png" alt="" class="calendar">
+                            <p>Январь 1, 2025</p>
+                        </div>
+                        <h3>Ледовая арена "Трактор"</h3>
+                        <p>«Ледовая Арена «Трактор» — трехэтажное здание, рассчитанное на 7500 человек. Концертный вариант — 9200 зрителей. Для проведения концертов возможна ...</p>
+                        <p>> Смотреть больше</p>
+                    </a>
+                </div>
+                <div class="slide_item">
+                    <a href="ivent/restik.html">
+                        <img src="image/Rectangle 33 (2).png" alt="">
+                        <div class="date">
+                            <img src="image/calendar.png" alt="" class="calendar">
+                            <p>Июль 16, 2025</p>
+                        </div>
+                        <h3>Ресторан европейской кухни Родня</h3>
+                        <p>Рестораны европейской кухни в Челябинске · Караоке-клуб Music Hall, с рейтингом 4.9 - находится по адресу Челябинск, Кирова · Ресторан Нор-Баязет, с рейтингом ...</p>
+                        <p>> Смотреть больше</p>
+                    </a>
+                </div>
+        
+
+            </div>
+            <div class="circ">
+                <button class="btn_slide" @click="prevSlide()"><</button>
+                <img src="image/new-moon.png" alt="" class="circle">
+                <img src="image/dry-clean.png" alt="" class="circle">
+                <img src="image/dry-clean.png" alt="" class="circle">
+                <button class="btn_slide" @click="nextSlide()">></button>
+            </div>
+        
+            </div>
+
+            <div class="slide2" v-if="slider === 1">
+
+                <div class="slider" id="slider1">
+    
+                    <div class="slide_item">
+    
+                        <a href="ivent/ivent1.html">
+                            <img src="image/Komsomolskaya_Ploshchad_-_Chelyabinsk.jpg" alt="" class="img_sl">
+                            <div class="date">
+                                <img src="image/calendar.png" alt="" class="calendar">
+                                <p>Март 22, 2025</p>
+                            </div>
+                            <h3>Комсомольская площадь</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque in maiores nostrum eius?</p>
+                            <p>> Смотреть больше</p>
+                        </a>
+                    </div>
+                    <div class="slide_item">
+                        <a href="ivent/ivent2.html">
+                            <img src="image/diamond.jpg" alt="" class="img_sl">
+                            <div class="date">
+                                <img src="image/calendar.png" alt="" class="calendar">
+                                <p>Январь 1, 2025</p>
+                            </div>
+                            <h3>Тц Алмаз</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque in maiores nostrum eius?</p>
+                            <p>> Смотреть больше</p>
+                        </a>
+                    </div>
+                    <div class="slide_item">
+                        <a href="ivent/ivent3.html">
+                            <img src="image/hq720.jpg" alt="" class="img_sl">
+                            <div class="date">
+                                <img src="image/calendar.png" alt="" class="calendar">
+                                <p>Июль 16, 2025</p>
+                            </div>
+                            <h3>Первое озеро</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque in maiores nostrum eius?</p>
+                            <p>> Смотреть больше</p>
+                        </a>
+                    </div>
+            
+    
+                </div>
+                <div class="circ">
+                    <button class="btn_slide" @click="prevSlide()"><</button>
+                    <img src="image/dry-clean.png" alt="" class="circle">
+                    <img src="image/new-moon.png" alt="" class="circle">
+                    <img src="image/dry-clean.png" alt="" class="circle">
+                    <button class="btn_slide" @click="nextSlide()">></button>
+                </div>
+            
+                </div>
+            
+                <div class="slide3" v-if="slider === 2">
+
+                    <div class="slider" id="slider1">
+        
+                        <div class="slide_item">
+        
+                            <a href="ivent/ivent4.html">
+                                <img src="image/images.jpg" alt="" class="img_sl">
+                                <div class="date">
+                                    <img src="image/calendar.png" alt="" class="calendar">
+                                    <p>Март 22, 2025</p>
+                                </div>
+                                <h3>Юность</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque in maiores nostrum eius?</p>
+                                <p>> Смотреть больше</p>
+                            </a>
+                        </div>
+                        <div class="slide_item">
+                            <a href="ivent/ivent5.html">
+                                <img src="image/naber.jpg" alt="" class="img_sl">
+                                <div class="date">
+                                    <img src="image/calendar.png" alt="" class="calendar">
+                                    <p>Январь 1, 2025</p>
+                                </div>
+                                <h3>Набережная</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque in maiores nostrum eius?</p>
+                                <p>> Смотреть больше</p>
+                            </a>
+                        </div>
+                        <div class="slide_item">
+                            <a href="ivent/ivent6.html">
+                                <img src="image/chelyabinsk-7.jpg" alt="" class="img_sl">
+                                <div class="date">
+                                    <img src="image/calendar.png" alt="" class="calendar">
+                                    <p>Июль 16, 2025</p>
+                                </div>
+                                <h3>Дом культуры</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque in maiores nostrum eius?</p>
+                                <p>> Смотреть больше</p>
+                            </a>
+                        </div>
+                
+        
+                    </div>
+                    <div class="circ">
+                        <button class="btn_slide" @click="prevSlide()"><</button>
+                        <img src="image/dry-clean.png" alt="" class="circle">
+                        <img src="image/dry-clean.png" alt="" class="circle">
+                        <img src="image/new-moon.png" alt="" class="circle">
+                        <button class="btn_slide" @click="nextSlide()">></button>
+                    </div>
+                
+                    </div>
+
+        </div>
+        </div>
+
+        </div>
+    </main>
+    <footer id="footer">
+            <div class="footer_top">
+                <div class="foot1">
+                    <h3>Поддержка</h3>
+                    <p>Центр помощи</p>
+                    <p>Информация</p>
+                    <p>Опции</p>
+                </div>
+                <div class="foot2">
+                    <h3>Компания</h3>
+                    <p>О нас</p>
+                    <p>Политика безопасности</p>
+                    <p>Сервис</p>
+                </div>
+                <div class="foot3">
+                    <h3>Контакты</h3>
+                    <p>+7 999 999 00 00</p>
+                    <p>+7 898 989 77 55</p>
+                    <p>Партнеры</p>
+                </div>
+                <div class="foot4">
+                    <h3>Социальные сети</h3>
+                    <img src="image/telegram.png" alt="" class="foot_img">
+                    <img src="image/instagram.png" alt="" class="foot_img">
+                    <img src="image/twitch.png" alt="" class="foot_img">
+                    <img src="image/vk.png" alt="" class="foot_img">
+                </div>
+                <div class="footer_bot">
+                    <p>©Челяба74 2025</p>
+                    <p>Владимир Терентьев</p>
+                    <p>Александр Колбин</p>
+                    <p>Сергей Лымарев</p>
+                    <p>Арсений Кирчук</p>
+                </div>
+            </div>
+    </footer>
+</div>
+<script src="vue.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
